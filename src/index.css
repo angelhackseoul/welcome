@@ -1,13 +1,153 @@
+:root {
+	--spacing-s: 8px;
+	--spacing-m: 16px;
+	--spacing-l: 24px;
+	--spacing-xxl: 32px;
+	--spacing-xxl-2: 40px;
+	--spacing-xxl-3: 48px;
+	--spacing-xxl-4: 56px;
+	--spacing-xxl-5: 64px;
+	--spacing-xxl-6: 72px;
+	--spacing-xxl-7: 80px;
+	--spacing-xxl-8: 88px;
+	--spacing-xxl-9: 96px;
+	--spacing-xxl-10: 120px;
+	--spacing-xxl-11: 128px;
+	--spacing-xxl-12: 256px;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: local(Helvetica-Regular),
+		url(/path/to/Helvetica-Regular.woff2) format('woff2'),
+		url(/path/to/Helvetica-Regular.woff) format('woff'),
+		url(/path/to/Helvetica-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: local(Helvetica-Bold),
+		url(/path/to/Helvetica-Bold.woff2) format('woff2'),
+		url(/path/to/Helvetica-Bold.woff) format('woff'),
+		url(/path/to/Helvetica-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.Header-1 {
+	font-family: Helvetica;
+	font-size: 68px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.06;
+	letter-spacing: normal;
+}
+
+.Header-2 {
+	font-family: Helvetica;
+	font-size: 42px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.14;
+	letter-spacing: normal;
+}
+
+.Header-3 {
+	font-family: Helvetica;
+	font-size: 32px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+}
+
+.Header-4 {
+	font-family: Helvetica;
+	font-size: 26px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: normal;
+}
+
+.Subhead-1 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: normal;
+}
+
+.Subhead1-Regular {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: normal;
+}
+
+body {
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+}
+
+.Tab {
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+}
+
+small {
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+}
+
+.XSmall {
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
 }
