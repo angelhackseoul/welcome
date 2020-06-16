@@ -1,45 +1,61 @@
 {
-  "name": "welcome",
-  "version": "0.1.0",
-  "homepage": "https://angelhackseoul.github.io/welcome",
-  "private": false,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "welcome",
+	"version": "0.1.0",
+	"homepage": "https://angelhackseoul.github.io/welcome",
+	"private": false,
+	"dependencies": {
+		"@material-ui/core": "^4.10.2",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"@types/jest": "^24.0.0",
+		"@types/material-ui": "^0.21.7",
+		"@types/node": "^12.0.0",
+		"@types/react": "^16.9.0",
+		"@types/react-dom": "^16.9.0",
+		"@types/styled-components": "^5.1.0",
+		"@zeplin/cli": "^1.0.3",
+		"@zeplin/cli-connect-react-plugin": "^0.2.4",
+		"@zeplin/cli-connect-storybook-plugin": "^0.3.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "3.4.1",
+		"styled-components": "^5.1.1",
+		"typescript": "~3.7.2"
+	},
+	"devDependencies": {
+		"@storybook/addon-actions": "^5.3.19",
+		"@storybook/addon-links": "^5.3.19",
+		"@storybook/addons": "^5.3.19",
+		"@storybook/preset-create-react-app": "^3.1.0",
+		"@storybook/react": "^5.3.19",
+		"gh-pages": "^2.2.0"
+	},
+	"scripts": {
+		"start": "BROWSER='google chrome' react-scripts start",
+		"s": "BROWSER='google chrome' react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"storybook": "start-storybook -p 9009 -s public",
+		"st": "start-storybook -p 9009 -s public",
+		"build-storybook": "build-storybook -s public"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
