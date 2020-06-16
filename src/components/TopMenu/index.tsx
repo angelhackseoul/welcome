@@ -4,32 +4,26 @@ import AngelHack_Logo from 'images/AngelHack_Logo.png';
 
 export const TopMenu = () => (
 	<Wrapper>
-			<span>
-				<img
-					className='Logo'
-					src={AngelHack_Logo}
-					alt='AngelHack_Logo'
-				/>
-			</span>
-			<span href='#' className='t1 text'>
-				참여방법
-			</span>
-			<span href='#' className='t2 text'>
-				도전과제
-			</span>
-			<span className='t3 text'>상금</div>
-			<span href='#' className='t4 text'>
-				일정
-			</span>
-			<span href='#' className='t5 text'>
-				심사기준
-			</span>
-		</span>
 		<span>
-			<span className='t6'>한국어</span>
-			<span className='t7'>
-				<span className='text txt'>등록하기</span>
-			</span>
+			<img className='Logo' src={AngelHack_Logo} alt='AngelHack_Logo' />
+		</span>
+		<span href='#' className='t1 text'>
+			참여방법
+		</span>
+		<span href='#' className='t2 text'>
+			도전과제
+		</span>
+		<span className='t3 text'>상금</span>
+		<span href='#' className='t4 text'>
+			일정
+		</span>
+		<span href='#' className='t5 text'>
+			심사기준
+		</span>
+		<span className='t6'>한국어</span>
+		<span className='t7'>
+			<span className='text txt'>등록하기</span>
+		</span>
 	</Wrapper>
 );
 
