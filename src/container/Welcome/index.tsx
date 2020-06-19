@@ -7,6 +7,7 @@ import { DescriptionBad } from 'components/DescriptionBad';
 import { DescriptionGood } from 'components/DescriptionGood';
 import { HowtoAttend } from 'components/HowtoAttend';
 import { Goals } from 'components/Goals';
+import { Prize } from 'components/Prize';
 
 export const Welcome = () => (
 	<Wrapper>
@@ -19,6 +20,7 @@ export const Welcome = () => (
 		</span>
 		<HowtoAttend />
 		<Goals />
+		<Prize />
 	</Wrapper>
 );
 

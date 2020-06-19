@@ -8,6 +8,7 @@ import { DescriptionBad } from 'components/DescriptionBad';
 import { DescriptionGood } from 'components/DescriptionGood';
 import { HowtoAttend } from 'components/HowtoAttend';
 import { Goals } from 'components/Goals';
+import { Prize } from 'components/Prize';
 
 import 'index.css';
 
@@ -42,4 +43,7 @@ export const HowtoAttend_ = () => {
 };
 export const Goals_ = () => {
 	return <Goals />;
+};
+export const Prize_ = () => {
+	return <Prize />;
 };
