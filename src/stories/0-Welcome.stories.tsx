@@ -9,6 +9,7 @@ import { DescriptionGood } from 'components/DescriptionGood';
 import { HowtoAttend } from 'components/HowtoAttend';
 import { Goals } from 'components/Goals';
 import { Prize } from 'components/Prize';
+import { Schedule } from 'components/Schedule';
 
 import 'index.css';
 
@@ -46,4 +47,8 @@ export const Goals_ = () => {
 };
 export const Prize_ = () => {
 	return <Prize />;
+};
+
+export const Schedule_ = () => {
+	return <Schedule />;
 };
