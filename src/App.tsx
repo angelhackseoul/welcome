@@ -6,6 +6,7 @@ import { Intro } from "sections/Intro";
 import { Footer } from "sections/Footer";
 import { HowToAttend } from "sections/HowToAttend";
 import { Missions } from "sections/Missions";
+import { Prizes } from "sections/Prizes";
 import "./index.css";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
             <Intro />
             <HowToAttend />
             <Missions />
-            <section id="prize">Prizes</section>
+            <Prizes />
             <section id="calendar">Calendar</section>
             <section id="criteria">Criteria</section>
             <section id="mentor">Mentor</section>

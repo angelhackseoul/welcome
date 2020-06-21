@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
 import { Container, Row, Col } from "reactstrap";
 import { MissionItem } from "components/MissionItem";
+import "./index.css";
 
 export class Missions extends React.Component {
     public render() {

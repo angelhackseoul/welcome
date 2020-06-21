@@ -1,0 +1,26 @@
+#prizes {
+    padding: 60px 0;
+    background-color: #222;
+}
+
+.prizes-heading {
+    font-size: 68px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.prizes-subheading {
+    font-size: 42px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+}
+
+.prizes-message {
+    color: white;
+    vertical-align: middle;
+}

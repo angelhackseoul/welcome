@@ -1,5 +1,9 @@
 import React from "react";
 
 export const PrizeItem = (props: any) => {
-    return <>Hello</>;
+    return (
+        <>
+            <span style={{ color: "white" }}>Prize Item</span>
+        </>
+    );
 };
