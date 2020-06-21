@@ -2,6 +2,7 @@ import React from "react";
 import { NavigationBar } from "./components/NavigationBar";
 import { Jumbotron } from "./components/Jumbotron";
 import { DDay } from "./components/DDay";
+import { Intro } from "./components/Intro";
 import { Footer } from "./components/Footer";
 import "./index.css";
 
@@ -11,7 +12,7 @@ function App() {
             <NavigationBar />
             <Jumbotron />
             <DDay />
-            <section id="intro">Intro</section>
+            <Intro />
             <section id="how-to-attend">How to Attend</section>
             <section id="missions">Missions</section>
             <section id="prize">Prizes</section>

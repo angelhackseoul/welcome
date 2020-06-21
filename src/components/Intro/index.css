@@ -1,0 +1,46 @@
+.intro-wrapper {
+    padding: 0 120px;
+}
+
+.intro-heading {
+    display: block;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-message {
+    font-size: 18px;
+    font-family: Helvetica;
+    line-height: 1.33;
+}
+
+.intro-left {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.intro-right {
+    padding: 100px 0;
+    background-color: black;
+}
+
+.intro-black {
+    color: black;
+}
+
+.intro-white {
+    color: white;
+}
+
+.intro-lightmark {
+    background-color: #faff00;
+}
+
+.intro-darkmark {
+    background-color: #be1621;
+    font-weight: bold;
+}
