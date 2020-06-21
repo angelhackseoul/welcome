@@ -1,5 +1,6 @@
 import React from "react";
 import { NavigationBar } from "./components/NavigationBar";
+import { Jumbotron } from "./components/Jumbotron";
 import { DDay } from "./components/DDay";
 import { Footer } from "./components/Footer";
 import "./index.css";
@@ -8,7 +9,7 @@ function App() {
     return (
         <>
             <NavigationBar />
-            <section id="jumbotron">Jumbotron</section>
+            <Jumbotron />
             <DDay />
             <section id="intro">Intro</section>
             <section id="how-to-attend">How to Attend</section>
