@@ -7,6 +7,14 @@ import { Footer } from "sections/Footer";
 import { HowToAttend } from "sections/HowToAttend";
 import { Missions } from "sections/Missions";
 import { Prizes } from "sections/Prizes";
+import { Calender } from "sections/Calendar";
+import { Criteria } from "sections/Criteria";
+import { Judges } from "sections/Judges";
+import { Mentors } from "sections/Mentors";
+import { Rules } from "sections/Rules";
+import { FAQ } from "sections/FAQ";
+import { Sponsors } from "sections/Sponsors";
+import { Hosts } from "sections/Hosts";
 import "./index.css";
 
 function App() {
@@ -19,13 +27,14 @@ function App() {
             <HowToAttend />
             <Missions />
             <Prizes />
-            <section id="calendar">Calendar</section>
-            <section id="criteria">Criteria</section>
-            <section id="mentor">Mentor</section>
-            <section id="rule">Rule</section>
-            <section id="faq">FAQ</section>
-            <section id="sponsors">Sponsors</section>
-            <section id="host">Host</section>
+            <Calender />
+            <Criteria />
+            <Judges />
+            <Mentors />
+            <Rules />
+            <FAQ />
+            <Sponsors />
+            <Hosts />
             <Footer />
         </>
     );

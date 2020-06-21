@@ -1,0 +1,12 @@
+#faq {
+    padding: 60px 0;
+    background-color: black;
+}
+
+.faq-heading {
+    font-size: 68px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}

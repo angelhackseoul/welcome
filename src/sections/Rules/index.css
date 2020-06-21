@@ -1,0 +1,12 @@
+#rules {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.rules-heading {
+    font-size: 68px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
