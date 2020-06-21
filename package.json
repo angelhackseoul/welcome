@@ -13,13 +13,16 @@
 		"@types/node": "^12.0.0",
 		"@types/react": "^16.9.0",
 		"@types/react-dom": "^16.9.0",
+		"@types/reactstrap": "^8.4.3",
 		"@types/styled-components": "^5.1.0",
 		"@zeplin/cli": "^1.0.3",
 		"@zeplin/cli-connect-react-plugin": "^0.2.4",
 		"@zeplin/cli-connect-storybook-plugin": "^0.3.0",
+		"bootstrap": "^4.5.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-scripts": "3.4.1",
+		"reactstrap": "^8.4.1",
 		"styled-components": "^5.1.1",
 		"typescript": "~3.7.2"
 	},
@@ -33,15 +36,11 @@
 	},
 	"scripts": {
 		"start": "BROWSER='google chrome' react-scripts start",
-		"s": "BROWSER='google chrome' react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"storybook": "start-storybook -p 9009 -s public",
-		"st": "start-storybook -p 9009 -s public",
-		"build-storybook": "build-storybook -s public"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
