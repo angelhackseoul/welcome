@@ -1,0 +1,22 @@
+#missions {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.missions-heading {
+    font-size: 68px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.missions-message {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 30px 0;
+}
+
+.missions-emphasis {
+    color: #e21c1c;
+}
