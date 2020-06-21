@@ -1,0 +1,18 @@
+#d-day {
+    background-color: #e21c1c;
+}
+
+.dday-heading {
+    display: block;
+    font-family: Helvetica;
+    font-size: 42px;
+    line-height: 68px;
+    font-weight: bold;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.dday-heading-big {
+    font-size: 68px;
+}

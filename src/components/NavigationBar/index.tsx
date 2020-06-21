@@ -13,7 +13,6 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    NavbarText,
 } from "reactstrap";
 import "./index.css";
 import AngelHackLogo from "images/angelhack_logo.png";
