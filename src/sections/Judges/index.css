@@ -10,3 +10,10 @@
     text-align: center;
     color: white;
 }
+
+.judges-message {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0;
+}
