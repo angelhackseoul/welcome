@@ -46,7 +46,7 @@ export const Goals = () => (
 						src={down}
 						// srcset='img/down@2x.png 2x,
 						//  img/down@3x.png 3x'
-						class='Down'
+						className='Down'
 						alt='detailForEachGoal'
 					/>
 				</div>

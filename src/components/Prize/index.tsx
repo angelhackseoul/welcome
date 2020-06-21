@@ -58,7 +58,7 @@ export const Prize = () => (
 				src={popPrizeIcon}
 				// srcset='img/pop-prize-icon@2x.png 2x,
 				//  img/pop-prize-icon@3x.png 3x'
-				class='Pop-Prize-Icon'
+				className='Pop-Prize-Icon'
 				alt='popPrizeIcon'
 			></img>
 		</div>
