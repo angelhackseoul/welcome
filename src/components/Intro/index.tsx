@@ -8,7 +8,7 @@ export class Intro extends React.Component {
             <section id="intro">
                 <Container fluid>
                     <Row>
-                        <Col className="intro-left">
+                        <Col sm="12" md="6" className="intro-left">
                             <div className="intro-wrapper">
                                 <span className="intro-heading intro-black">
                                     <span className="intro-lightmark">
@@ -49,7 +49,7 @@ export class Intro extends React.Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col className="intro-right">
+                        <Col sm="12" md="6" className="intro-right">
                             <div className="intro-wrapper">
                                 <span className="intro-heading intro-white">
                                     <span className="intro-darkmark">

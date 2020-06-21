@@ -1,9 +1,10 @@
 import React from "react";
-import { NavigationBar } from "./components/NavigationBar";
-import { Jumbotron } from "./components/Jumbotron";
-import { DDay } from "./components/DDay";
-import { Intro } from "./components/Intro";
-import { Footer } from "./components/Footer";
+import { NavigationBar } from "components/NavigationBar";
+import { Jumbotron } from "components/Jumbotron";
+import { DDay } from "components/DDay";
+import { Intro } from "components/Intro";
+import { Footer } from "components/Footer";
+import { HowToAttend } from "components/HowToAttend";
 import "./index.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
             <Jumbotron />
             <DDay />
             <Intro />
-            <section id="how-to-attend">How to Attend</section>
+            <HowToAttend />
             <section id="missions">Missions</section>
             <section id="prize">Prizes</section>
             <section id="calendar">Calendar</section>
