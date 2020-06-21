@@ -1,26 +1,105 @@
 {
-    "plugins": [
-        {
-            "name": "@zeplin/cli-connect-react-plugin"
-        },
-        {
-            "name": "@zeplin/cli-connect-storybook-plugin",
-            "config": {
-                "url": "http://localhost:9009",
-                "startScript": "storybook"
-            }
-        }
-    ],
-    "projects": [],
-    "styleguides": [
-        "5ec3df642111b03333de5a7e"
-    ],
-    "components": [
-        {
-            "path": "src/components/Dum/index.jsx",
-            "zeplinNames": [
-                "등록하기 S/default"
-            ]
-        }
-    ]
+	"plugins": [
+		{
+			"name": "@zeplin/cli-connect-react-plugin"
+		},
+		{
+			"name": "@zeplin/cli-connect-storybook-plugin",
+			"config": {
+				"url": "http://localhost:9009",
+				"startScript": "storybook"
+			}
+		}
+	],
+	"projects": [],
+	"styleguides": ["5ee973428d947b4ca598f41a"],
+	"components": [
+		{
+			"path": "src/components/Button.jsx",
+			"zeplinNames": [
+				"등록하기/default",
+				"Popover/right",
+				"Language Menu/default",
+				"Large Button/focus",
+				"Large Button/default",
+				"멘토 되기/default",
+				"Card/Default",
+				"등록하기 S/default",
+				"지금 등록하기/default",
+				"등록하기 S/hover",
+				"지금 등록하기/hover",
+				"멘토 되기/hover",
+				"등록하기/hover",
+				"Language Menu/expanded",
+				"Big Label/default",
+				"Dropdown Menu",
+				"Big Label/hover",
+				"Lang Choice/default",
+				"Lang Choice/hover",
+				"FAQ/직장인 참여/default",
+				"FAQ Mobile/직장인참여/default",
+				"FAQ/직장인 참여/expanded",
+				"FAQ/이미 팀 구성/default",
+				"Card/Expanded",
+				"FAQ/팀 구성/default",
+				"FAQ/행사언어/default",
+				"FAQ/평가방법/default",
+				"FAQ/이미 팀 구성/expanded",
+				"FAQ/팀 구성/expanded",
+				"FAQ/동시 가입/expanded",
+				"FAQ/멘토링지원/default",
+				"FAQ/동시 가입/default",
+				"FAQ/행사언어/expanded",
+				"FAQ/상금지급/default",
+				"FAQ/상금지급/expanded",
+				"FAQ Mobile/직장인참여/expanded",
+				"FAQ/문의연락처/expanded",
+				"FAQ/멘토링지원/expanded",
+				"FAQ/평가방법/expanded",
+				"FAQ/문의연락처/default",
+				"FAQ Mobile/평가/expanded",
+				"FAQ Mobile/멘토링 지원/expanded",
+				"FAQ Mobile/행사 언어/expanded",
+				"FAQ Mobile/동시 참가/expanded",
+				"FAQ Mobile/이미 팀 구성/expanded",
+				"FAQ Mobile/상금 지급/expanded",
+				"FAQ Mobile/상금 지급/default",
+				"FAQ Mobile/행사 언어/default",
+				"FAQ Mobile/멘토링 지원/default",
+				"FAQ Mobile/문의연락처/default",
+				"FAQ Mobile/문의연락처/expanded",
+				"FAQ Mobile/팀구성/default",
+				"FAQ Mobile/이미 팀 구성/default",
+				"FAQ Mobile/동시 참가/default",
+				"FAQ Mobile/평가/default",
+				"FAQ Mobile/팀구성/expanded",
+				"Up",
+				"Down",
+				"Slider",
+				"Popover/left",
+				"symbols / instagram/default",
+				"symbols / facebook/default",
+				"symbols / twitter/default",
+				"Prize Card",
+				"menu",
+				"Popover/small",
+				"surprise box",
+				"symbols / instagram/hover",
+				"Logo",
+				"symbols / twitter/hover",
+				"X",
+				"symbols / facebook/hover",
+				"minus",
+				"Criteria/비즈니스 모델",
+				"Criteria/완성도",
+				"Criteria/UI UX",
+				"Criteria/팀",
+				"Criteria/독창성"
+			],
+			"storybook": {
+				"kind": "Design System/Button",
+				"stories": ["default", "primary", "with emoji"]
+			}
+		}
+	]
 }
