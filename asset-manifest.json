@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.332c92e8.chunk.css",
-    "main.js": "/welcome/static/js/main.4800cfe3.chunk.js",
-    "main.js.map": "/welcome/static/js/main.4800cfe3.chunk.js.map",
+    "main.css": "/welcome/static/css/main.85aba39e.chunk.css",
+    "main.js": "/welcome/static/js/main.feca0e1f.chunk.js",
+    "main.js.map": "/welcome/static/js/main.feca0e1f.chunk.js.map",
     "runtime-main.js": "/welcome/static/js/runtime-main.b7be5663.js",
     "runtime-main.js.map": "/welcome/static/js/runtime-main.b7be5663.js.map",
     "static/css/2.af3c1da9.chunk.css": "/welcome/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5d131e92.chunk.js": "/welcome/static/js/2.5d131e92.chunk.js",
-    "static/js/2.5d131e92.chunk.js.map": "/welcome/static/js/2.5d131e92.chunk.js.map",
+    "static/js/2.d0dc7461.chunk.js": "/welcome/static/js/2.d0dc7461.chunk.js",
+    "static/js/2.d0dc7461.chunk.js.map": "/welcome/static/js/2.d0dc7461.chunk.js.map",
     "index.html": "/welcome/index.html",
-    "precache-manifest.aea51dd4711bae5fdd935b656acf0dfa.js": "/welcome/precache-manifest.aea51dd4711bae5fdd935b656acf0dfa.js",
+    "precache-manifest.c5c1c3cd2d872ab6c10754f5858d2775.js": "/welcome/precache-manifest.c5c1c3cd2d872ab6c10754f5858d2775.js",
     "service-worker.js": "/welcome/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/welcome/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.332c92e8.chunk.css.map": "/welcome/static/css/main.332c92e8.chunk.css.map",
-    "static/js/2.5d131e92.chunk.js.LICENSE.txt": "/welcome/static/js/2.5d131e92.chunk.js.LICENSE.txt",
+    "static/css/main.85aba39e.chunk.css.map": "/welcome/static/css/main.85aba39e.chunk.css.map",
+    "static/js/2.d0dc7461.chunk.js.LICENSE.txt": "/welcome/static/js/2.d0dc7461.chunk.js.LICENSE.txt",
     "static/media/AngelHack_Logo.png": "/welcome/static/media/AngelHack_Logo.6f902e4e.png",
     "static/media/down.svg": "/welcome/static/media/down.80a1c6b4.svg",
     "static/media/pop_prize.svg": "/welcome/static/media/pop_prize.8c83e87d.svg",
+    "static/media/slider.svg": "/welcome/static/media/slider.8b24cff3.svg",
     "static/media/sns_facebook.svg": "/welcome/static/media/sns_facebook.11159a97.svg",
     "static/media/sns_instagram.svg": "/welcome/static/media/sns_instagram.748b2f2b.svg",
     "static/media/sns_twitter.svg": "/welcome/static/media/sns_twitter.5501250a.svg"
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.b7be5663.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5d131e92.chunk.js",
-    "static/css/main.332c92e8.chunk.css",
-    "static/js/main.4800cfe3.chunk.js"
+    "static/js/2.d0dc7461.chunk.js",
+    "static/css/main.85aba39e.chunk.css",
+    "static/js/main.feca0e1f.chunk.js"
   ]
 }
