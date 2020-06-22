@@ -15,7 +15,7 @@
 	"styleguides": ["5ee973428d947b4ca598f41a"],
 	"components": [
 		{
-			"path": "src/components/Button.jsx",
+			"path": "src/components/ZeplinTest/index.tsx",
 			"zeplinNames": [
 				"등록하기/default",
 				"Popover/right",
