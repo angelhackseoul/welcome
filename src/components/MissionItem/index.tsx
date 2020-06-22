@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 	text-align: center;
 
 	.brick {
-		padding-bottom: 240px;
+		padding-bottom: 230px;
 	}
 
 	.text {
