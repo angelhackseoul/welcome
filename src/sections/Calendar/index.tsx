@@ -1,24 +1,109 @@
-import React from "react";
-import { Container } from "reactstrap";
-import "./index.css";
+import React from 'react';
+import { Wrapper } from './Wrapper';
+import slider from 'images/slider.svg';
+import { Container } from 'reactstrap';
+import { Grid } from '@material-ui/core';
 
-export class Calendar extends React.Component {
-    public render() {
-        return (
-            <section id="calendar">
-                <Container>
-                    <h1 className="calendar-heading">일정</h1>
-                    <p>
-                        06월 24일 (수): 참가 신청 시작 <br />
-                        07월 08일 (수): 참가 신청 종료 <br /> 07월 10일 (금)
-                        오전: 슬랙 초대 <br /> 07월 10일 (금) ~ 07월 12일 (일):
-                        팀 빌딩 및 확정 <br />
-                        07월 13일 (월): 온라인 해커톤 시작 <br /> 추후 공개:
-                        웨비나 1, 2 <br />
-                        07월 19일 (일) 23:59 KST: 프로젝트 제출
-                    </p>
-                </Container>
-            </section>
-        );
-    }
-}
+import {
+	Timeline,
+	TimelineItem,
+	TimelineSeparator,
+	TimelineConnector,
+	TimelineContent,
+	TimelineOppositeContent,
+} from '@material-ui/lab';
+import Typography from '@material-ui/core/Typography';
+
+const dum = [
+	{
+		LeftText: '06월 24일 (수)',
+		RightText: '참가 신청 시작',
+	},
+	{
+		LeftText: '참가 신청 종료',
+		RightText: '07월 08일 (수)',
+	},
+	{
+		LeftText: '07월 10일 (금) 오전',
+		RightText: '슬랙 초대',
+	},
+	{
+		LeftText: '팀 빌딩 및 확정',
+		RightText: '07월 10일 (금) ~ 07월 12일 (일) ',
+	},
+	{
+		LeftText: '07월 13일 (월)',
+		RightText: '온라인 해커톤 시작',
+	},
+	{
+		LeftText: '웨비나 1,2',
+		RightText: '추후 공개',
+	},
+	{
+		LeftText: '07월 19일 (일) 23:59 KST',
+		RightText: `프로젝트 제출
+        • PPT
+        • 데모시연영상 (2분 이내)
+        • 피칭 영상 (5분 이내)`,
+	},
+	{
+		LeftText: '심사 기간',
+		RightText: '07월 20일 (월) ~ 07월 22일 (수)',
+	},
+	{
+		LeftText: '07월 22일 (수)',
+		RightText: '최종 우승 팀 발표',
+	},
+	{
+		LeftText: '행사 종료',
+		RightText: '07월 22일 (수)',
+	},
+];
+
+const timeLineRenderer = () => {
+	return dum.map(({ LeftText, RightText }, idx) => {
+		const bool = idx % 2 === 0;
+		return (
+			<TimelineItem>
+				<TimelineOppositeContent
+					className={bool ? 'text' : 'bubble-chat'}
+				>
+					<Typography className='text'>{LeftText}</Typography>
+				</TimelineOppositeContent>
+				<TimelineSeparator>
+					{idx === 0 && <TimelineConnector className='connector' />}
+					<img src={slider} className='slider' alt='slider' />
+					<TimelineConnector className='connector' />
+				</TimelineSeparator>
+				<TimelineContent className={bool ? 'bubble-chat' : 'text'}>
+					<Typography className='text'>{RightText}</Typography>
+				</TimelineContent>
+			</TimelineItem>
+		);
+	});
+};
+
+export const Calendar = () => {
+	return (
+		<Wrapper>
+			<Container>
+				<h1 className='calendar-heading'>일정</h1>
+				<Grid
+					container
+					direction='column'
+					justify='center'
+					alignItems='center'
+					// alignContent='space-around'
+					spacing={3}
+					xl='auto'
+					xs='auto'
+					lg='auto'
+					sm='auto'
+					md='auto'
+				>
+					<Timeline align='alternate'>{timeLineRenderer()}</Timeline>
+				</Grid>
+			</Container>
+		</Wrapper>
+	);
+};
