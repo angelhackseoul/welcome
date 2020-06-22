@@ -110,7 +110,7 @@ const timeLineRenderer = () => {
 
 export const Calendar = () => {
 	return (
-		<Wrapper>
+		<Wrapper id='calendar'>
 			<Container>
 				<h1 className='calendar-heading'>일정</h1>
 				<Grid
