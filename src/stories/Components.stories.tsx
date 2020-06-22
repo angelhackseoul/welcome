@@ -28,12 +28,22 @@ const text: TextType[] = [
 	},
 ];
 
+interface textForFAQTypes {
+	question: string;
+}
+
+const textForFAQ: textForFAQTypes[] = [
+	{
+		question: `직장인도 참여가 가능한가요?`,
+	},
+];
+
 export const CriteriaItem_ = () => {
 	return <CriteriaItem {...text[0]} />;
 };
 
 export const FAQItem_ = () => {
-	return <FAQItem />;
+	return <FAQItem {...textForFAQ[0]} />;
 };
 
 export const MentorItem_ = () => {

@@ -121,11 +121,6 @@ export const Calendar = () => {
 					alignItems='center'
 					// alignContent='space-around'
 					spacing={3}
-					xl='auto'
-					xs='auto'
-					lg='auto'
-					sm='auto'
-					md='auto'
 				>
 					<Timeline align='alternate'>{timeLineRenderer()}</Timeline>
 				</Grid>
