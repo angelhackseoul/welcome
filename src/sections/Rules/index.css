@@ -1,12 +1,25 @@
 #rules {
-    padding: 60px 0;
-    background-color: white;
+	padding: 60px 0;
+	background-color: white;
 }
 
 .rules-heading {
-    font-size: 68px;
-    font-family: Helvetica;
-    font-weight: bold;
-    text-align: center;
-    color: black;
+	font-size: 68px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.rules-desription {
+	height: 80px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: black;
 }

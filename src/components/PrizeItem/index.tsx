@@ -13,11 +13,6 @@ export const PrizeItem = ({ name }: any) => {
 				className='container1'
 				alignContent='space-around'
 				spacing={3}
-				xl='auto'
-				xs='auto'
-				lg='auto'
-				sm='auto'
-				md='auto'
 			>
 				<Grid item>
 					<Grid
@@ -28,11 +23,6 @@ export const PrizeItem = ({ name }: any) => {
 						alignContent='center'
 						spacing={3}
 						className='container2'
-						xl='auto'
-						xs='auto'
-						lg='auto'
-						sm='auto'
-						md='auto'
 					>
 						<Grid item className='item1'>
 							<span className='p1'>{name}</span>

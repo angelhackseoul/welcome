@@ -23,8 +23,14 @@ export class Judges extends React.Component {
 						<Col>
 							<JudgeItem />
 						</Col>
+						<Col>
+							<JudgeItem />
+						</Col>
 					</Row>
 					<Row>
+						<Col>
+							<JudgeItem />
+						</Col>
 						<Col>
 							<JudgeItem />
 						</Col>

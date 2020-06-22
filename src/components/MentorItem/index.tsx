@@ -1,9 +1,6 @@
-import React from "react";
+import React from 'react';
+import { Wrapper } from './Wrapper';
 
 export const MentorItem = (props: any) => {
-    return (
-        <>
-            <span style={{ color: "white" }}>Mentor Item</span>
-        </>
-    );
+	return <Wrapper>MENTOR</Wrapper>;
 };

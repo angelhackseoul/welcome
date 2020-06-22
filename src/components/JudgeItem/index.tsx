@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
+import { Wrapper } from './Wrapper';
 
 export const JudgeItem = (props: any) => {
-    return (
-            <span style={{ color: "white" }}>Judges Item</span>
-    );
+	return <Wrapper>IMG</Wrapper>;
 };

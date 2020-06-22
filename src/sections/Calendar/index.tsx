@@ -41,9 +41,9 @@ const dum = [
 	},
 	{
 		LeftText: '07월 19일 (일) 23:59 KST',
-		RightText: `프로젝트 제출
-        • PPT
-        • 데모시연영상 (2분 이내)
+		RightText: `프로젝트 제출 \b
+        • PPT \b
+        • 데모시연영상 (2분 이내) \b
         • 피칭 영상 (5분 이내)`,
 	},
 	{
@@ -62,22 +62,47 @@ const dum = [
 
 const timeLineRenderer = () => {
 	return dum.map(({ LeftText, RightText }, idx) => {
-		const bool = idx % 2 === 0;
+		const isBubble: boolean = idx % 2 === 0;
+
 		return (
 			<TimelineItem>
-				<TimelineOppositeContent
-					className={bool ? 'text' : 'bubble-chat'}
-				>
-					<Typography className='text'>{LeftText}</Typography>
-				</TimelineOppositeContent>
+				{isBubble ? (
+					<TimelineOppositeContent
+						className={
+							isBubble ? 'normalText' : 'bubble-chat-right'
+						}
+					>
+						<Typography className='text'>{LeftText}</Typography>
+					</TimelineOppositeContent>
+				) : (
+					<TimelineContent
+						className={isBubble ? 'bubble-chat-left' : 'normalText'}
+					>
+						<Typography className='text'>{RightText}</Typography>
+					</TimelineContent>
+				)}
+
 				<TimelineSeparator>
-					{idx === 0 && <TimelineConnector className='connector' />}
+					{/* {idx === 0 && <TimelineConnector className='connector' />} */}
 					<img src={slider} className='slider' alt='slider' />
 					<TimelineConnector className='connector' />
 				</TimelineSeparator>
-				<TimelineContent className={bool ? 'bubble-chat' : 'text'}>
-					<Typography className='text'>{RightText}</Typography>
-				</TimelineContent>
+
+				{isBubble ? (
+					<TimelineContent
+						className={isBubble ? 'bubble-chat-left' : 'normalText'}
+					>
+						<Typography className='text'>{RightText}</Typography>
+					</TimelineContent>
+				) : (
+					<TimelineOppositeContent
+						className={
+							isBubble ? 'normalText' : 'bubble-chat-right'
+						}
+					>
+						<Typography className='text'>{LeftText}</Typography>
+					</TimelineOppositeContent>
+				)}
 			</TimelineItem>
 		);
 	});
@@ -85,21 +110,17 @@ const timeLineRenderer = () => {
 
 export const Calendar = () => {
 	return (
-		<Wrapper>
+		<Wrapper id='calendar'>
 			<Container>
 				<h1 className='calendar-heading'>일정</h1>
 				<Grid
+					className='container1'
 					container
 					direction='column'
 					justify='center'
 					alignItems='center'
 					// alignContent='space-around'
 					spacing={3}
-					xl='auto'
-					xs='auto'
-					lg='auto'
-					sm='auto'
-					md='auto'
 				>
 					<Timeline align='alternate'>{timeLineRenderer()}</Timeline>
 				</Grid>
