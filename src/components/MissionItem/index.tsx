@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 	}
 
 	.text {
-		height: 35px;
+		height: 38px;
 		margin: 0px;
 		font-family: Helvetica;
 		font-size: 32px;
