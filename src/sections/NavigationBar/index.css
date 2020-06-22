@@ -1,0 +1,28 @@
+.navbar-register {
+    background-color: #e21c1c;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    height: 48px;
+    padding: 0 36px;
+    margin-left: 30px;
+}
+
+/* Bootstrap Patching */
+a.nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.dropdown-toggle {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+/* TODO: Need to override the dropdown toggler image */
