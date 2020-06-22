@@ -15,7 +15,7 @@ import {
     DropdownItem,
 } from "reactstrap";
 import "./index.css";
-import AngelHackLogo from "images/angelhack_logo.png";
+import AngelHackLogo from "images/AngelHack_Logo.png";
 
 export const NavigationBar = (props: any) => {
     const [isOpen, setIsOpen] = useState(false);
