@@ -1,9 +1,7 @@
 import React from "react";
 
-export const JudgesItem = (props: any) => {
+export const JudgeItem = (props: any) => {
     return (
-        <>
             <span style={{ color: "white" }}>Judges Item</span>
-        </>
     );
 };

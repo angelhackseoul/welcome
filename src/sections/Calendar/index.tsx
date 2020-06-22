@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import "./index.css";
 
-export class Calender extends React.Component {
+export class Calendar extends React.Component {
     public render() {
         return (
             <section id="calendar">
