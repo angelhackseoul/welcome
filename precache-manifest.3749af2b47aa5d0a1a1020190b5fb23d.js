@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5dbd3b1c5a53b60271e585a0c9ce5fa2",
+    "revision": "b838319f009a6156db17415e76a2c7ec",
     "url": "/welcome/index.html"
   },
   {
-    "revision": "64f4db01f283c777c8bb",
+    "revision": "226f2b51bc91e1162355",
     "url": "/welcome/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2887ed7aa27dccb05759",
-    "url": "/welcome/static/css/main.599c128d.chunk.css"
+    "revision": "26a92e27f136ef655dab",
+    "url": "/welcome/static/css/main.f434199a.chunk.css"
   },
   {
-    "revision": "64f4db01f283c777c8bb",
-    "url": "/welcome/static/js/2.a10c7c8b.chunk.js"
+    "revision": "226f2b51bc91e1162355",
+    "url": "/welcome/static/js/2.8a2a7f85.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/welcome/static/js/2.a10c7c8b.chunk.js.LICENSE.txt"
+    "url": "/welcome/static/js/2.8a2a7f85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2887ed7aa27dccb05759",
-    "url": "/welcome/static/js/main.fcbc1538.chunk.js"
+    "revision": "26a92e27f136ef655dab",
+    "url": "/welcome/static/js/main.81b1acc1.chunk.js"
   },
   {
     "revision": "819759cbb0b859ff1ffe",
@@ -56,8 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/media/beSide.665890a8.png"
   },
   {
+    "revision": "acc42f213b2849acaf23afdee7e57b77",
+    "url": "/welcome/static/media/business_model.acc42f21.png"
+  },
+  {
     "revision": "cc2f9127a2886eccff49d83e94cf093f",
     "url": "/welcome/static/media/commonComputer.cc2f9127.png"
+  },
+  {
+    "revision": "01d469d67c7825b1857db16926513068",
+    "url": "/welcome/static/media/completion.01d469d6.png"
+  },
+  {
+    "revision": "e8d5833bd70fd573aad4e93b2da46b80",
+    "url": "/welcome/static/media/creativity.e8d5833b.png"
   },
   {
     "revision": "d570c2ce51774b41426790ad82424a15",
@@ -94,6 +106,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9286c9456fab38d47fecc2c938623e47",
     "url": "/welcome/static/media/tableManager.9286c945.png"
+  },
+  {
+    "revision": "98fdf1d1af3e07cf0c505561d9d1481a",
+    "url": "/welcome/static/media/team.98fdf1d1.png"
+  },
+  {
+    "revision": "3d1a3ae9a7f7e054c2d8e0ae8129a072",
+    "url": "/welcome/static/media/ui_ux.3d1a3ae9.png"
   },
   {
     "revision": "80fab677b2635914a39c9ffdab91abfb",
