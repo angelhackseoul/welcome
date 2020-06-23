@@ -14,24 +14,24 @@ export class Prizes extends React.Component {
                         메인 상금 (Main Prize)
                     </h2>
                     <Row>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
-                        <Col>
+                        <Col md="12" lg="4">
                             <PrizeItem name="교육 챌린지" />
                         </Col>
                     </Row>
