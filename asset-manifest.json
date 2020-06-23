@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.3b2dca63.chunk.css",
-    "main.js": "/welcome/static/js/main.e17f42c3.chunk.js",
-    "main.js.map": "/welcome/static/js/main.e17f42c3.chunk.js.map",
+    "main.css": "/welcome/static/css/main.9e0459e7.chunk.css",
+    "main.js": "/welcome/static/js/main.3ea33eec.chunk.js",
+    "main.js.map": "/welcome/static/js/main.3ea33eec.chunk.js.map",
     "runtime-main.js": "/welcome/static/js/runtime-main.b7be5663.js",
     "runtime-main.js.map": "/welcome/static/js/runtime-main.b7be5663.js.map",
     "static/css/2.af3c1da9.chunk.css": "/welcome/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1df77fd8.chunk.js": "/welcome/static/js/2.1df77fd8.chunk.js",
-    "static/js/2.1df77fd8.chunk.js.map": "/welcome/static/js/2.1df77fd8.chunk.js.map",
+    "static/js/2.38a93e0d.chunk.js": "/welcome/static/js/2.38a93e0d.chunk.js",
+    "static/js/2.38a93e0d.chunk.js.map": "/welcome/static/js/2.38a93e0d.chunk.js.map",
     "index.html": "/welcome/index.html",
-    "precache-manifest.a99927ea7d486c414d5b79a40241c330.js": "/welcome/precache-manifest.a99927ea7d486c414d5b79a40241c330.js",
+    "precache-manifest.83c0ef7243d769779c70b1d9635b5154.js": "/welcome/precache-manifest.83c0ef7243d769779c70b1d9635b5154.js",
     "service-worker.js": "/welcome/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/welcome/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.3b2dca63.chunk.css.map": "/welcome/static/css/main.3b2dca63.chunk.css.map",
-    "static/js/2.1df77fd8.chunk.js.LICENSE.txt": "/welcome/static/js/2.1df77fd8.chunk.js.LICENSE.txt",
+    "static/css/main.9e0459e7.chunk.css.map": "/welcome/static/css/main.9e0459e7.chunk.css.map",
+    "static/js/2.38a93e0d.chunk.js.LICENSE.txt": "/welcome/static/js/2.38a93e0d.chunk.js.LICENSE.txt",
     "static/media/AngelHack_Logo.png": "/welcome/static/media/AngelHack_Logo.6f902e4e.png",
     "static/media/Down.svg": "/welcome/static/media/Down.80a1c6b4.svg",
     "static/media/beSide.png": "/welcome/static/media/beSide.665890a8.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.b7be5663.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1df77fd8.chunk.js",
-    "static/css/main.3b2dca63.chunk.css",
-    "static/js/main.e17f42c3.chunk.js"
+    "static/js/2.38a93e0d.chunk.js",
+    "static/css/main.9e0459e7.chunk.css",
+    "static/js/main.3ea33eec.chunk.js"
   ]
 }
