@@ -1,13 +1,17 @@
 #footer {
-    padding: 60px 0;
-    color: white;
+	padding: 60px 0;
+	color: white;
 }
 
 .footer-message {
-    font-family: Helvetica;
-    font-weight: bold;
+	font-family: Helvetica;
+	font-weight: bold;
 }
 
 .footer-sns-icons {
-    float: right;
+	float: right;
+}
+
+img {
+	cursor: pointer;
 }

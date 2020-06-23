@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 	background-color: #be1621;
 	display: flex;
 	margin-bottom: 16px;
+	cursor: pointer;
 
 	.brick {
 		margin-top: 1em;
