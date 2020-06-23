@@ -11,7 +11,7 @@ export const DDay = () => {
 		} else {
 			return (
 				<span>
-					{days}days {hours}:{minutes}:{seconds}
+					{days}d {hours}:{minutes}:{seconds}
 				</span>
 			);
 		}
