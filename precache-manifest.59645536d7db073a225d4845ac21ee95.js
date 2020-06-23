@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54aec729b598abad76717fb251bd5775",
+    "revision": "7edb338b0074f540e7be1ef2078142f3",
     "url": "/welcome/index.html"
   },
   {
-    "revision": "0f29e2d8b2eeb002c9b8",
+    "revision": "8a57e5170ff0fcefca22",
     "url": "/welcome/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "30a0622029e3aa48709f",
-    "url": "/welcome/static/css/main.8541dd1d.chunk.css"
+    "revision": "fe633c47d65b55960fcd",
+    "url": "/welcome/static/css/main.565dbdbf.chunk.css"
   },
   {
-    "revision": "0f29e2d8b2eeb002c9b8",
-    "url": "/welcome/static/js/2.bcaa4cd1.chunk.js"
+    "revision": "8a57e5170ff0fcefca22",
+    "url": "/welcome/static/js/2.807c18ee.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/welcome/static/js/2.bcaa4cd1.chunk.js.LICENSE.txt"
+    "url": "/welcome/static/js/2.807c18ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30a0622029e3aa48709f",
-    "url": "/welcome/static/js/main.90ffb83d.chunk.js"
+    "revision": "fe633c47d65b55960fcd",
+    "url": "/welcome/static/js/main.a588cddb.chunk.js"
   },
   {
     "revision": "819759cbb0b859ff1ffe",
@@ -29,15 +29,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "6f902e4e9642dad1c2de309de6c7fdcc",
-    "url": "/welcome/static/media/AngelHack_Logo.6f902e4e.png"
+    "url": "/welcome/static/media/angelhack_logo.6f902e4e.png"
   },
   {
     "revision": "80a1c6b4771f17d0b436cef57b3ea2ba",
     "url": "/welcome/static/media/down.80a1c6b4.svg"
-  },
-  {
-    "revision": "8c83e87de1975c0a2fba8444922189b2",
-    "url": "/welcome/static/media/pop_prize.8c83e87d.svg"
   },
   {
     "revision": "8b24cff39f93d89f27831150c3df3221",
