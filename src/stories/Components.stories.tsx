@@ -30,11 +30,13 @@ const text: TextType[] = [
 
 interface textForFAQTypes {
 	question: string;
+	description: string;
 }
 
 const textForFAQ: textForFAQTypes[] = [
 	{
 		question: `직장인도 참여가 가능한가요?`,
+		description: '',
 	},
 ];
 
