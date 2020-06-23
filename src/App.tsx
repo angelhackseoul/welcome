@@ -34,7 +34,7 @@ function App() {
 			<Rules />
 			<FAQ />
 			<Sponsors />
-			<Hosts />
+			{/* <Hosts /> */}
 			<Footer />
 		</>
 	);
