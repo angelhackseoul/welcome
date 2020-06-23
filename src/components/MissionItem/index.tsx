@@ -1,5 +1,5 @@
 import React from "react";
-import DownIcon from "images/down.svg";
+import DownIcon from "images/Down.svg";
 
 import "./index.css";
 
