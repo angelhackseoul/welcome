@@ -1,7 +1,7 @@
 import React from 'react';
 import { Wrapper } from './Wrapper';
 
-export const SponsorItem = ({ img, level, url }: any) => {
+export const SponsorItem = ({ img, level, url, desc }: any) => {
 	// level 0 : 1160
 	// level 1 : 176
 	// level 2 : 128
@@ -30,7 +30,7 @@ export const SponsorItem = ({ img, level, url }: any) => {
 				window.open(url); //This will open Google in a new window.
 			}}
 		>
-			<img className={sponsor} src={img} alt='sponsor-logo' />
+			<img className={sponsor} src={img} alt={desc} />
 		</Wrapper>
 	);
 };
