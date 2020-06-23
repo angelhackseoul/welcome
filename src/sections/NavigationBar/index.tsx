@@ -15,7 +15,7 @@ import {
     DropdownItem,
 } from "reactstrap";
 import "./index.css";
-import AngelHackLogo from "images/AngelHack_Logo.png";
+import AngelHackLogo from "images/angelhack_logo.png";
 
 export const NavigationBar = (props: any) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ export const NavigationBar = (props: any) => {
     return (
         <section id="navbar">
             <Container>
-                <Navbar color="transparent" expand="md">
+                <Navbar color="transparent" expand="lg">
                     <NavbarBrand href="/">
                         <img alt="AngelHack" src={AngelHackLogo} width={200} />
                     </NavbarBrand>

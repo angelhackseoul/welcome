@@ -20,3 +20,18 @@
 .missions-emphasis {
     color: #e21c1c;
 }
+
+@media (max-width: 991px) {
+    .missions-heading {
+        font-size: 48px;
+    }
+
+    .missions-message {
+        font-size: 16px;
+        line-height: 1.33;
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 767px) {
+}

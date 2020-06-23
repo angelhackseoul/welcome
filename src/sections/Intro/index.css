@@ -1,5 +1,5 @@
 .intro-wrapper {
-    padding: 0 120px;
+    padding: 0 60px;
 }
 
 .intro-heading {
@@ -43,4 +43,54 @@
 .intro-darkmark {
     background-color: #be1621;
     font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .intro-wrapper {
+        padding: 0 30px;
+    }
+
+    .intro-heading {
+        font-size: 18px;
+        line-height: 1.33;
+        margin-bottom: 20px;
+    }
+
+    .intro-message {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+
+    .intro-left {
+        padding: 50px 0;
+    }
+
+    .intro-right {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro-wrapper {
+        padding: 0 15px;
+    }
+
+    .intro-heading {
+        font-size: 18px;
+        line-height: 1.33;
+        margin-bottom: 20px;
+    }
+
+    .intro-message {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+
+    .intro-left {
+        padding: 25px 0;
+    }
+
+    .intro-right {
+        padding: 25px 0;
+    }
 }

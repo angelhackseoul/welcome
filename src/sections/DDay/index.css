@@ -16,3 +16,27 @@
 .dday-heading-big {
     font-size: 68px;
 }
+
+@media (max-width: 991px) {
+    .dday-heading {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .dday-heading-big {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dday-heading {
+        font-size: 27px;
+        padding: 0;
+    }
+
+    .dday-heading-big {
+        font-size: 27px;
+        padding: 0;
+    }
+}
