@@ -1,37 +1,51 @@
 .mission-item-wrapper {
-    width: 100%;
-    height: 320px;
-    background-color: black;
-    margin-right: 48px;
-    margin-bottom: 48px;
-    text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	margin-right: 48px;
+	margin-bottom: 48px;
+	text-align: center;
 }
 
 .mission-item-brick {
-    padding-bottom: 230px;
+	padding-bottom: 220px;
 }
 
 .mission-item-text {
-    height: 38px;
-    margin: 0px;
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #ffffff;
+	height: 38px;
+	margin: 0px;
+	font-family: Helvetica;
+	font-size: 32px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #ffffff;
 }
-.mission-item-down {
-    height: 8px;
-    object-fit: contain;
+.mission-item-arrow {
+	height: 8px;
+	object-fit: contain;
+	margin-top: 1em;
+}
+
+.mission-detail-text {
+	margin-top: 2em;
+	height: 192px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #ffffff;
 }
 
 @media (max-width: 991px) {
-    .mission-item-wrapper {
-        width: 100%;
-    }
+	.mission-item-wrapper {
+		width: 100%;
+	}
 }
 
 @media (max-width: 767px) {

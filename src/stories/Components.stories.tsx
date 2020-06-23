@@ -55,9 +55,9 @@ export const JudgeItem_ = () => {
 	return <JudgeItem />;
 };
 
-export const MissionItem_ = () => {
-	return <MissionItem />;
-};
+// export const MissionItem_ = () => {
+// 	return <MissionItem />;
+// };
 
 export const PrizeItem_ = () => {
 	return <PrizeItem />;
