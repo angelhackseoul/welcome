@@ -30,17 +30,19 @@ const text: TextType[] = [
 
 interface textForFAQTypes {
 	question: string;
+	description: string;
 }
 
 const textForFAQ: textForFAQTypes[] = [
 	{
 		question: `직장인도 참여가 가능한가요?`,
+		description: '',
 	},
 ];
 
-export const CriteriaItem_ = () => {
-	return <CriteriaItem {...text[0]} />;
-};
+// export const CriteriaItem_ = () => {
+// 	return <CriteriaItem {...text[0]} />;
+// };
 
 export const FAQItem_ = () => {
 	return <FAQItem {...textForFAQ[0]} />;
@@ -53,9 +55,9 @@ export const JudgeItem_ = () => {
 	return <JudgeItem />;
 };
 
-export const MissionItem_ = () => {
-	return <MissionItem />;
-};
+// export const MissionItem_ = () => {
+// 	return <MissionItem />;
+// };
 
 export const PrizeItem_ = () => {
 	return <PrizeItem />;

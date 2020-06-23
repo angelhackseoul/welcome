@@ -2,8 +2,13 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
 	color: white;
-	background-color: red;
+	background-color: #222222;
 	height: 504px;
+
+	.img {
+		width: 100%;
+		height: 60%;
+	}
 
 	.holder {
 		display: flex;

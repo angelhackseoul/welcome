@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
     padding: 60px 0;
-    background-color: black;
+    background-color: #222222;
 
     .criteria-heading {
         font-size: 68px;
