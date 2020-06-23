@@ -29,7 +29,7 @@ function App() {
 			<Prizes />
 			<Calendar />
 			<Criteria />
-			<Judges />
+			{/* <Judges /> */}
 			<Mentors />
 			<Rules />
 			<FAQ />
