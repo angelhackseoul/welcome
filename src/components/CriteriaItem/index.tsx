@@ -5,13 +5,14 @@ import dummy from 'images/dummy.png';
 interface Props {
 	title: string;
 	description: string[];
+	img: any;
 }
 
-export const CriteriaItem = ({ title, description }: Props) => {
+export const CriteriaItem = ({ title, description, img }: Props) => {
 	return (
 		<Wrapper>
-			{/* <img src={dummy} alt='dummy' /> */}
-			<div>space for img</div>
+			<img src={img} alt='Criteria_image' className='img' />
+			{/* <div>space for img</div> */}
 			<div className='holder'>
 				<p className='title'>{title}</p>
 				<p className='score'>(0-5점)</p>

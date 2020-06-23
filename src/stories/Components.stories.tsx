@@ -40,9 +40,9 @@ const textForFAQ: textForFAQTypes[] = [
 	},
 ];
 
-export const CriteriaItem_ = () => {
-	return <CriteriaItem {...text[0]} />;
-};
+// export const CriteriaItem_ = () => {
+// 	return <CriteriaItem {...text[0]} />;
+// };
 
 export const FAQItem_ = () => {
 	return <FAQItem {...textForFAQ[0]} />;
