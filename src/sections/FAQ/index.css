@@ -9,4 +9,11 @@
     font-weight: bold;
     text-align: center;
     color: white;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .faq-heading {
+        font-size: 48px;
+    }
 }

@@ -10,3 +10,9 @@
     text-align: center;
     color: black;
 }
+
+@media (max-width: 991px) {
+    .sponsors-heading {
+        font-size: 48px;
+    }
+}
