@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18ce7edac6432478ad3bc6ed4dea5187",
+    "revision": "5dbd3b1c5a53b60271e585a0c9ce5fa2",
     "url": "/welcome/index.html"
   },
   {
-    "revision": "0298bb3febec0fbaf20c",
+    "revision": "64f4db01f283c777c8bb",
     "url": "/welcome/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "d730388f6d6a0276a876",
-    "url": "/welcome/static/css/main.9e0459e7.chunk.css"
+    "revision": "2887ed7aa27dccb05759",
+    "url": "/welcome/static/css/main.599c128d.chunk.css"
   },
   {
-    "revision": "0298bb3febec0fbaf20c",
-    "url": "/welcome/static/js/2.4bdf05d6.chunk.js"
+    "revision": "64f4db01f283c777c8bb",
+    "url": "/welcome/static/js/2.a10c7c8b.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/welcome/static/js/2.4bdf05d6.chunk.js.LICENSE.txt"
+    "url": "/welcome/static/js/2.a10c7c8b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d730388f6d6a0276a876",
-    "url": "/welcome/static/js/main.1c7cfd88.chunk.js"
+    "revision": "2887ed7aa27dccb05759",
+    "url": "/welcome/static/js/main.fcbc1538.chunk.js"
   },
   {
     "revision": "819759cbb0b859ff1ffe",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/media/commonComputer.cc2f9127.png"
   },
   {
-    "revision": "f9d0e676d0607fc798e2b14a7c467427",
-    "url": "/welcome/static/media/dCmap.f9d0e676.png"
+    "revision": "d570c2ce51774b41426790ad82424a15",
+    "url": "/welcome/static/media/dCmap.d570c2ce.png"
   },
   {
     "revision": "e789671c007ff5ab5358f2d1d0d20701",
@@ -94,6 +94,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9286c9456fab38d47fecc2c938623e47",
     "url": "/welcome/static/media/tableManager.9286c945.png"
+  },
+  {
+    "revision": "80fab677b2635914a39c9ffdab91abfb",
+    "url": "/welcome/static/media/up.80fab677.svg"
+  },
+  {
+    "revision": "7685eaed1a7a102ec8920279ccad8d88",
+    "url": "/welcome/static/media/wooah.7685eaed.jpeg"
   },
   {
     "revision": "5a9049e21a94fec734b66b87833f7e24",
