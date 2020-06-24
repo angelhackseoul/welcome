@@ -6,14 +6,14 @@ import { SponsorItem } from 'components/SponsorItem';
 
 //main
 import commonComputer from 'images/sponsor/commonComputer.png';
-import wooah from 'images/sponsor/wooah.jpeg';
+import wooah from 'images/sponsor/wooah.png';
 //sub
 import fastCampus from 'images/sponsor/fastCampus.png';
 import tableManager from 'images/sponsor/tableManager.png';
 
 //others
 import beSide from 'images/sponsor/beSide.png';
-import dCmap from 'images/sponsor/dCmap.png';
+import dCmap from 'images/sponsor/dCamp.png';
 
 export class Sponsors extends React.Component {
 	public render() {

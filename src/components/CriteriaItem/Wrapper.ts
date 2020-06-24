@@ -6,8 +6,9 @@ export const Wrapper = styled.section`
 	height: 504px;
 
 	.img {
-		width: 100%;
+		width: 80%;
 		height: 60%;
+		margin-left: 2em;
 	}
 
 	.holder {
