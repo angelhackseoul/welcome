@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0ed148d037f84555b041f563aa47b8",
+    "revision": "ee1d7e61a6fc7c102d0dc2eacef24ccb",
     "url": "/welcome/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "d781937ceceae0a0f823",
+    "revision": "03da2fe07b734a8bb091",
     "url": "/welcome/static/css/main.497a77bd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/js/2.6f112b4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d781937ceceae0a0f823",
-    "url": "/welcome/static/js/main.53d00885.chunk.js"
+    "revision": "03da2fe07b734a8bb091",
+    "url": "/welcome/static/js/main.61a76aa5.chunk.js"
   },
   {
     "revision": "819759cbb0b859ff1ffe",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/media/Minwoo_Kim.823fd8d6.jpg"
   },
   {
-    "revision": "acc42f213b2849acaf23afdee7e57b77",
-    "url": "/welcome/static/media/business_model.acc42f21.png"
+    "revision": "1a42d0bf5db2499c927cced987500a6b",
+    "url": "/welcome/static/media/business_model.1a42d0bf.png"
   },
   {
     "revision": "5efa57568eadb455bd764cea675c5678",
     "url": "/welcome/static/media/commonComputer.5efa5756.png"
   },
   {
-    "revision": "01d469d67c7825b1857db16926513068",
-    "url": "/welcome/static/media/completion.01d469d6.png"
+    "revision": "7109711f991994772d7e1b662366a0a3",
+    "url": "/welcome/static/media/completion.7109711f.png"
   },
   {
-    "revision": "e8d5833bd70fd573aad4e93b2da46b80",
-    "url": "/welcome/static/media/creativity.e8d5833b.png"
+    "revision": "9162b2565d5e8de4d5dea3b751f55388",
+    "url": "/welcome/static/media/creativity.9162b256.png"
   },
   {
     "revision": "84ffd4f2f20f0c1dbfd0ced60539d537",
@@ -104,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/welcome/static/media/tableManager.858eeefb.png"
   },
   {
-    "revision": "98fdf1d1af3e07cf0c505561d9d1481a",
-    "url": "/welcome/static/media/team.98fdf1d1.png"
+    "revision": "34a8cdcc0d646f0edf6e026a53267900",
+    "url": "/welcome/static/media/team.34a8cdcc.png"
   },
   {
-    "revision": "3d1a3ae9a7f7e054c2d8e0ae8129a072",
-    "url": "/welcome/static/media/ui_ux.3d1a3ae9.png"
+    "revision": "806c53ab6697cf4dfaa350c4927f4576",
+    "url": "/welcome/static/media/ui_ux.806c53ab.png"
   },
   {
     "revision": "80fab677b2635914a39c9ffdab91abfb",
