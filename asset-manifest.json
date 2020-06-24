@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/welcome/static/css/main.497a77bd.chunk.css",
+    "main.css": "/welcome/static/css/main.cd833be5.chunk.css",
     "main.js": "/welcome/static/js/main.a70c2814.chunk.js",
     "main.js.map": "/welcome/static/js/main.a70c2814.chunk.js.map",
     "runtime-main.js": "/welcome/static/js/runtime-main.b7be5663.js",
@@ -9,10 +9,10 @@
     "static/js/2.6f112b4b.chunk.js": "/welcome/static/js/2.6f112b4b.chunk.js",
     "static/js/2.6f112b4b.chunk.js.map": "/welcome/static/js/2.6f112b4b.chunk.js.map",
     "index.html": "/welcome/index.html",
-    "precache-manifest.c856759946c175fc8066fb435afc4eb4.js": "/welcome/precache-manifest.c856759946c175fc8066fb435afc4eb4.js",
+    "precache-manifest.fc54c78cfed4d11cce5cdf3bf4276f48.js": "/welcome/precache-manifest.fc54c78cfed4d11cce5cdf3bf4276f48.js",
     "service-worker.js": "/welcome/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/welcome/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.497a77bd.chunk.css.map": "/welcome/static/css/main.497a77bd.chunk.css.map",
+    "static/css/main.cd833be5.chunk.css.map": "/welcome/static/css/main.cd833be5.chunk.css.map",
     "static/js/2.6f112b4b.chunk.js.LICENSE.txt": "/welcome/static/js/2.6f112b4b.chunk.js.LICENSE.txt",
     "static/media/AngelHack_Logo.png": "/welcome/static/media/AngelHack_Logo.6f902e4e.png",
     "static/media/Donggeon_Lee.png": "/welcome/static/media/Donggeon_Lee.c1e31c27.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.b7be5663.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.6f112b4b.chunk.js",
-    "static/css/main.497a77bd.chunk.css",
+    "static/css/main.cd833be5.chunk.css",
     "static/js/main.a70c2814.chunk.js"
   ]
 }
