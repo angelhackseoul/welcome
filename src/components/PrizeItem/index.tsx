@@ -35,7 +35,7 @@ export const PrizeItem = ({ name }: any) => {
                     </Grid>
                 </Grid>
                 <Grid item>
-                    <p className="p3">xxx만원</p>
+                    <p className="p3">추후 공개</p>
                 </Grid>
                 <Grid item>
                     <p className="p4">(1팀 수상)</p>
