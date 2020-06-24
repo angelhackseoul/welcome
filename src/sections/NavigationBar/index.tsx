@@ -50,13 +50,13 @@ export const NavigationBar = (props: any) => {
 								<NavLink href='#criteria'>심사기준</NavLink>
 							</NavItem>
 						</Nav>
-						<UncontrolledDropdown>
+						{/* <UncontrolledDropdown>
 							<DropdownToggle caret>한국어</DropdownToggle>
 							<DropdownMenu right>
 								<DropdownItem>한국어</DropdownItem>
 								<DropdownItem>영어</DropdownItem>
 							</DropdownMenu>
-						</UncontrolledDropdown>
+						</UncontrolledDropdown> */}
 						<button
 							onClick={() =>
 								window.open(
