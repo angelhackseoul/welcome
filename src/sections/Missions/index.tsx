@@ -21,11 +21,13 @@ export const Missions = () => {
                 <p className="missions-message">
                     <b>AngelHack Seoul 2020 Online</b> 해커톤은{" "}
                     <span className="missions-emphasis">
-                        유엔이 제안하는 17가지의 지속 가능한 개발
-                        목표(Sustainable Development Goals)
+                        UN이 제안하는 17가지의 지속 가능한 개발 목표(Sustainable
+                        Development Goals)
                     </span>
-                    을 바탕으로 설계되었으며, 이 해커톤에서는 아래 6개의 선택
-                    주제를 참가자들에게 제안합니다.
+                    을 바탕으로 설계되었습니다. 해커톤에 참여하는 6개의 스폰서
+                    중 4개의 스폰서가 아래 도전 과제를 참가자들에게 제안합니다.
+                    참가자들은 아래 도전 과제 중 최소 1개 ~ 최대 2개의 주제를
+                    중복 선택하여, 솔루션을 제작합니다.
                 </p>
                 <Row style={{ marginBottom: "2em" }}>
                     <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
