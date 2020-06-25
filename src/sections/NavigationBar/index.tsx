@@ -22,7 +22,7 @@ export const NavigationBar = (props: any) => {
         <section id="navbar">
             <Container>
                 <Navbar color="transparent" expand="lg">
-                    <NavbarBrand href="/">
+                    <NavbarBrand href="http://angelhackseoul.kr">
                         <img alt="AngelHack" src={AngelHackLogo} width={200} />
                     </NavbarBrand>
                     <NavbarToggler onClick={toggle} />
