@@ -36,17 +36,17 @@ export class HowToAttend extends React.Component {
                         <ol>
                             <li>제작한 어플리케이션의 GitHub의 링크</li>
                             <li>
-                                2분 미만의 제품 프레젠테이션 비디오 (Vimeo 또는
-                                YouTube에 슬라이드 쇼 및 음성)
+                                2분 미만의 데모 영상 (Vimeo/Youtube 업로드 후
+                                링크 공유)
                             </li>
                             <li>
-                                프레젠테이션 슬라이드 파일, 기타 개발 관련 문서,
-                                데모 영상 (있는 경우)
+                                프레젠테이션 발표 자료와 3분 이내의 피칭 녹화
+                                영상 (Vimeo/Youtube 업로드 후 링크 공유)
                             </li>
+                            <li>기타 개발 관련한 내용을 설명하는 문서</li>
                             <li>
-                                제작한 코드는 마감 시간 이내에
-                                virtual.hackathon.io 시스템에 제출 (구체적인
-                                방법은 해커톤 기간 내 안내 예정)
+                                모든 결과물은 마감 시간 내에 제출 (구체적인
+                                방법은 해커톤 기간 내에 안내)
                             </li>
                         </ol>
                     </p>
