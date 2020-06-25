@@ -12,9 +12,16 @@ export class Rules extends React.Component {
                     <p className="rules-desription">
                         아래는 <b>AngelHack Seoul 2020 Online</b> 해커톤의 7가지
                         규칙입니다. 또한 엔젤핵은 모든 이들에게 열려있는 즐거운
-                        행사를 만들기 위하여, 준수사항에 따라 운영하고 있습니다.
-                        모든 참가자, 멘토, 심사위원, 스폰서, 운영진들은 구분
-                        없이 준수 사항을 따라주시길 바랍니다.
+                        행사를 만들기 위하여,{" "}
+                        <a href="https://drive.google.com/drive/u/2/folders/1_uGi_EoMEzAeQbPT44V_vGZunFHTRood">
+                            준수사항
+                        </a>
+                        에 따라 운영하고 있습니다. 모든 참가자, 멘토, 심사위원,
+                        스폰서, 운영진들은 구분 없이{" "}
+                        <a href="https://drive.google.com/drive/u/2/folders/1_uGi_EoMEzAeQbPT44V_vGZunFHTRood">
+                            준수사항
+                        </a>
+                        을 따라주시길 바랍니다.
                     </p>
                     <Row>
                         <Col md="12" lg="3">
