@@ -1,7 +1,7 @@
 {
 	"name": "welcome",
 	"version": "0.1.0",
-	"homepage": "http://angelhackseoul.kr",
+	"homepage": "https://angelhackseoul.kr",
 	"private": false,
 	"dependencies": {
 		"@material-ui/core": "^4.10.2",
