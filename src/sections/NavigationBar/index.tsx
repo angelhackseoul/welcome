@@ -9,10 +9,6 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
 } from "reactstrap";
 import "./index.css";
 import AngelHackLogo from "images/angelhack_logo.png";
