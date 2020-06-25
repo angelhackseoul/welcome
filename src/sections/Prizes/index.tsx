@@ -14,25 +14,25 @@ export class Prizes extends React.Component {
                         메인 상금 (Main Prize)
                     </h2>
                     <Row>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
+                        <Col md="12" lg="6">
+                            <PrizeItem name="전체 분야" sponsor="커먼컴퓨터" />
                         </Col>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
-                        </Col>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
+                        <Col md="12" lg="6">
+                            <PrizeItem
+                                name="추후 공개"
+                                sponsor="우아한 형제들"
+                            />
                         </Col>
                     </Row>
                     <Row>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
+                        <Col md="12" lg="6">
+                            <PrizeItem name="교육" sponsor="패스트캠퍼스" />
                         </Col>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
-                        </Col>
-                        <Col md="12" lg="4">
-                            <PrizeItem name="교육 챌린지" />
+                        <Col md="12" lg="6">
+                            <PrizeItem
+                                name="지속 가능한 도시"
+                                sponsor="테이블매니저"
+                            />
                         </Col>
                     </Row>
                     <h2 className="prizes-subheading">특별 상품 (Pop Prize)</h2>

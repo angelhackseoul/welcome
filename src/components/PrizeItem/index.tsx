@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Grid } from "@material-ui/core";
 
-export const PrizeItem = ({ name }: any) => {
+export const PrizeItem = ({ name, sponsor }: any) => {
     return (
         <Wrapper>
             <Grid
@@ -30,7 +30,7 @@ export const PrizeItem = ({ name }: any) => {
                             <span className="p2">Presented by</span>
                         </Grid>
                         <Grid item>
-                            <div className="logo">Sponsor Logo</div>
+                            <div className="logo">{sponsor}</div>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -81,8 +81,11 @@ const Wrapper = styled.div`
         color: #ffffff;
     }
     .logo {
+        font-family: Helvetica;
         height: 68px;
-        background-color: #c4c4c4;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
     }
 
     .p3 {
