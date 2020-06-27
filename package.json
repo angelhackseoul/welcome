@@ -40,12 +40,12 @@
 	"scripts": {
 		"start": "BROWSER='google chrome' react-scripts start",
 		"s": "BROWSER='google chrome' react-scripts start",
-		"build": "react-scripts build",
+		"build": "react-scripts build && yarn add-domain",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
+		"predeploy": "npm run build && yarn add-domain",
 		"deploy": "gh-pages -d build",
-        "add-domain": "echo 'angelhackseoul.kr' > build/CNAME",
+		"add-domain": "echo 'angelhackseoul.kr' > build/CNAME",
 		"st": "start-storybook -p 9009 -s public"
 	},
 	"eslintConfig": {
