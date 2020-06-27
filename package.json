@@ -45,6 +45,7 @@
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
+        "add-domain": "echo 'angelhackseoul.kr' > build/CNAME",
 		"st": "start-storybook -p 9009 -s public"
 	},
 	"eslintConfig": {
