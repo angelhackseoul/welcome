@@ -43,7 +43,7 @@
 		"build": "react-scripts build && yarn add-domain",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build && yarn add-domain",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"add-domain": "echo 'angelhackseoul.kr' > build/CNAME",
 		"st": "start-storybook -p 9009 -s public"
