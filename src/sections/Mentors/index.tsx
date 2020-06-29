@@ -10,8 +10,10 @@ import 김진아 from "images/mentors/김진아.png";
 import 김진우 from "images/mentors/김진우.png";
 import 박지민 from "images/mentors/박지민.png";
 import 이동건 from "images/mentors/이동건.png";
+import 이보라 from "images/mentors/이보라.png";
 import 이희택 from "images/mentors/이희택.png";
 import 정성민 from "images/mentors/정성민.png";
+import 정희재 from "images/mentors/정희재.png";
 import 조난현 from "images/mentors/조난현.png";
 import 하희목 from "images/mentors/하희목.png";
 
@@ -58,13 +60,21 @@ export class Mentors extends React.Component {
                             <MentorItem img={이동건} />
                         </Col>
                     </Row>
-                    <Row>
+                    <Row style={{ marginBottom: "2.3em" }}>
+                        <Col xs={xs} md={md} lg={lg}>
+                            <MentorItem img={이보라} />
+                        </Col>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={이희택} />
                         </Col>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={정성민} />
                         </Col>
+                        <Col xs={xs} md={md} lg={lg}>
+                            <MentorItem img={정희재} />
+                        </Col>
+                    </Row>
+                    <Row>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={조난현} />
                         </Col>
