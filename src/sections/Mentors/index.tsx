@@ -29,7 +29,7 @@ export class Mentors extends React.Component {
                 <Container>
                     <h1 className="mentors-heading">멘토</h1>
                     <p className="mentors-message">
-                        해커톤의 참가팀들을 위해 12명의 현업 멘토들이 멘토로
+                        해커톤의 참가팀들을 위해 14명의 현업 멘토들이 멘토로
                         참여하고 있습니다.
                     </p>
                     <Row style={{ marginBottom: "2.3em" }}>
