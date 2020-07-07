@@ -8,6 +8,7 @@ import DCamp from "images/prizes/dcamp.png";
 import FastCampus from "images/prizes/fast_campus.png";
 import TableManager from "images/prizes/table_manager.png";
 import Woowa from "images/prizes/woowa.png";
+import Codestates from "images/prizes/codestates.png";
 
 import "./index.css";
 
@@ -20,18 +21,23 @@ export class Prizes extends React.Component {
                     <h2 className="prizes-subheading">
                         메인 상금 (Main Prize)
                     </h2>
-                    <Row>
-                        <Col md="6" lg="3">
+                    <Row style={{ marginBottom: "2em" }}>
+                        <Col md="6" lg="4">
                             <PrizeItem image={CommonComputer} />
                         </Col>
-                        <Col md="6" lg="3">
+                        <Col md="6" lg="4">
                             <PrizeItem image={Woowa} />
                         </Col>
-                        <Col md="6" lg="3">
+                        <Col md="6" lg="4">
                             <PrizeItem image={FastCampus} />
                         </Col>
-                        <Col md="6" lg="3">
+                    </Row>
+                    <Row>
+                        <Col md="6" lg="4">
                             <PrizeItem image={TableManager} />
+                        </Col>
+                        <Col md="6" lg="4">
+                            <PrizeItem image={Codestates} />
                         </Col>
                     </Row>
                     <h2 className="prizes-subheading">특별 상품 (Pop Prize)</h2>

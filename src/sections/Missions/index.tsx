@@ -7,11 +7,13 @@ import MissionEducation from "images/missions/mission_education.png";
 import MissionBusiness from "images/missions/mission_business.png";
 import MissionCoding from "images/missions/mission_coding.png";
 import MissionRecycle from "images/missions/mission_recycle.png";
+import MissionCareer from "images/missions/mission_career.png";
 
 import MissionEducationBackground from "images/missions/mission_education_background.png";
 import MissionBusinessBackground from "images/missions/mission_business_background.png";
 import MissionCodingBackground from "images/missions/mission_coding_background.png";
 import MissionRecycleBackground from "images/missions/mission_recycle_background.png";
+import MissionCareerBackground from "images/missions/mission_career_background.png";
 
 export const Missions = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +35,7 @@ export const Missions = () => {
                     선택해야하며, 최대 2개까지의 주제를 중복 선택할 수 있습니다.
                 </p>
                 <Row style={{ marginBottom: "2em" }}>
-                    <Col xs="12" lg="3" style={{ marginBottom: "30px" }}>
+                    <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
                         <MissionItem
                             name="커먼컴퓨터"
                             desc={`Ainize(오픈소스 프로젝트 배포 솔루션)를 활용한 코로나 시대를 헤쳐나갈 수 있는 모든 분야의 솔루션`}
@@ -44,7 +46,7 @@ export const Missions = () => {
                             }
                         />
                     </Col>
-                    <Col xs="12" lg="3" style={{ marginBottom: "30px" }}>
+                    <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
                         <MissionItem
                             name="패스트캠퍼스"
                             desc={`코로나와 같은 재난 격리, 도서 산간 거주 등 불가피한 원격 상황에서도 학습 의지 부여와 완주율을 높이는 교육/학습 솔루션`}
@@ -57,7 +59,7 @@ export const Missions = () => {
                             }
                         />
                     </Col>
-                    <Col xs="12" lg="3" style={{ marginBottom: "30px" }}>
+                    <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
                         <MissionItem
                             name="테이블매니저"
                             desc={`코로나로 인해 어려움을 겪는 소상공인을 돕는 솔루션을 통한 안정적이고 지속 가능한 도시`}
@@ -70,7 +72,7 @@ export const Missions = () => {
                             }
                         />
                     </Col>
-                    <Col xs="12" lg="3" style={{ marginBottom: "30px" }}>
+                    <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
                         <MissionItem
                             name="우아한형제들"
                             desc={`지구를 위한 책임감 있는 소비와 생산을 위한 솔루션`}
@@ -80,6 +82,17 @@ export const Missions = () => {
                                 isOpen
                                     ? MissionRecycleBackground
                                     : MissionRecycle
+                            }
+                        />
+                    </Col>
+                    <Col xs="12" lg="4" style={{ marginBottom: "30px" }}>
+                        <MissionItem
+                            name="코드스테이츠"
+                            desc={`포스트 판데믹 사회에 걸맞는 커리어의 시작(취업)부터 이직, 자기 계발 등 커리어 성장 및 관리를 위한 솔루션`}
+                            openToggle={setIsOpen}
+                            isOpen={isOpen}
+                            image={
+                                isOpen ? MissionCareerBackground : MissionCareer
                             }
                         />
                     </Col>
