@@ -12,6 +12,7 @@ import tableManager from "images/sponsor/tableManager.png";
 
 import beSide from "images/sponsor/beSide.png";
 import dCmap from "images/sponsor/dCamp.png";
+import Codestates from "images/sponsor/codestates.png";
 
 export class Sponsors extends React.Component {
     public render() {
@@ -50,7 +51,7 @@ export class Sponsors extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col md="6" lg={{ size: 5, offset: 1 }}>
+                        <Col md="4" lg={{ size: 4 }}>
                             <SponsorItem
                                 level={1}
                                 img={fastCampus}
@@ -64,7 +65,7 @@ export class Sponsors extends React.Component {
 								헤어 등 직군 맞춤형 교육('콜로소')까지 모든 교육 니즈를 빈틈없이 채워나가고 있습니다.`}
                             />
                         </Col>
-                        <Col md="6" lg="5">
+                        <Col md="4" lg="4">
                             <SponsorItem
                                 level={1}
                                 img={tableManager}
@@ -74,6 +75,14 @@ export class Sponsors extends React.Component {
 								테이블매니저 솔루션은 기본적인 예약관리, 고객관리기능 뿐 아니라 노쇼를 방지하기 위한 예약금 결제 기능, 예약 데이터 분석을 통한 프로모션 제안,
 								 각 가맹점들의 데이터를 한 눈에 쉽게 관리할 수 있는 리포트페이지 기능 등 고객사의 원활한 운영 및 매출 증대를 관리하는 
 								 ‘매니저’로서의 역할을 충실하게 수행하고 있습니다."`}
+                            />
+                        </Col>
+                        <Col md="4" lg="4">
+                            <SponsorItem
+                                level={1}
+                                img={Codestates}
+                                url={`https://codestates.com/`}
+                                desc={`"코드스테이츠는 실제 현장에 필요한 교육을 만든다는 미션 아래에 자기주도적으로 학습하는 코딩 부트캠프를 운영합니다."`}
                             />
                         </Col>
                     </Row>
