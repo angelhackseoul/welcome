@@ -94,7 +94,7 @@ export class Mentors extends React.Component {
                             <MentorItem img={장미영} />
                         </Col>
                     </Row>
-                    <Row>
+                    <Row style={{ marginBottom: "2.3em" }}>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={정성민} />
                         </Col>
