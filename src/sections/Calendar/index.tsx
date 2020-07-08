@@ -21,7 +21,7 @@ const dum = [
     },
     {
         LeftText: "참가 신청 종료",
-        RightText: "07월 08일 (수)",
+        RightText: "07월 10일 (금)",
     },
     {
         LeftText: "07월 10일 (금) 오전",

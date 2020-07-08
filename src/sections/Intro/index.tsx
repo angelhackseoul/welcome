@@ -87,7 +87,7 @@ export class Intro extends React.Component {
                                     이 해커톤은 단순히 아이디어 피칭으로 끝나는
                                     것이 아니라,{" "}
                                     <span className="intro-darkmark">
-                                        4개의 수상 팀
+                                        5개의 수상 팀
                                     </span>
                                     은 상금과 함께 실리콘 밸리 출신의 전문가들이
                                     참여하는{" "}
