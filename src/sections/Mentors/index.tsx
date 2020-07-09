@@ -88,16 +88,13 @@ export class Mentors extends React.Component {
                             <MentorItem img={이희택} />
                         </Col>
                         <Col xs={xs} md={md} lg={lg}>
-                            <MentorItem img={예시카} />
-                        </Col>
-                        <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={장미영} />
                         </Col>
-                    </Row>
-                    <Row style={{ marginBottom: "2.3em" }}>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={정성민} />
                         </Col>
+                    </Row>
+                    <Row>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={정희재} />
                         </Col>
@@ -107,8 +104,6 @@ export class Mentors extends React.Component {
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={올리비아하} />
                         </Col>
-                    </Row>
-                    <Row>
                         <Col xs={xs} md={md} lg={lg}>
                             <MentorItem img={하희목} />
                         </Col>
