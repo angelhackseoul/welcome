@@ -21,13 +21,8 @@ export const Jumbotron = (props: any) => {
                         행사 기간 : 7월 13일 (월) ~ 7월 19일 (일) <br />
                         심사 기간 : 7월 20일 (월) ~ 7월 22일 (수) <br />
                     </b>
-                    <button
-                        className="jumbotron-register"
-                        onClick={() =>
-                            window.open("https://forms.gle/gV58UM1VgUhCcjYv5")
-                        }
-                    >
-                        지금 등록하기
+                    <button className="jumbotron-register" disabled>
+                        등록 마감
                     </button>
                 </p>
             </Container>

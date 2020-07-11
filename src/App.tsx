@@ -20,7 +20,6 @@ function App() {
         <>
             <NavigationBar />
             <Jumbotron />
-            <DDay />
             <Intro />
             <HowToAttend />
             <Missions />

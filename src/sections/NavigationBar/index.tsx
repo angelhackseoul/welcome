@@ -53,15 +53,8 @@ export const NavigationBar = (props: any) => {
 								<DropdownItem>영어</DropdownItem>
 							</DropdownMenu>
 						</UncontrolledDropdown> */}
-                        <button
-                            onClick={() =>
-                                window.open(
-                                    "https://forms.gle/gV58UM1VgUhCcjYv5"
-                                )
-                            }
-                            className="navbar-register"
-                        >
-                            등록하기
+                        <button disabled className="navbar-register">
+                            등록 마감
                         </button>
                     </Collapse>
                 </Navbar>

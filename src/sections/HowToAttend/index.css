@@ -16,7 +16,8 @@
 }
 
 .attend-button-wrapper > button {
-    background-color: #e21c1c;
+    /* background-color: #e21c1c; */
+    background-color: #555555;
     border: 0;
     color: white;
     font-weight: bold;

@@ -9,24 +9,8 @@ export class HowToAttend extends React.Component {
                 <Container>
                     <h1 className="attend-heading">참여방법</h1>
                     <p className="attend-button-wrapper">
-                        <button
-                            onClick={() =>
-                                window.open(
-                                    "https://forms.gle/gV58UM1VgUhCcjYv5"
-                                )
-                            }
-                        >
-                            등록하기
-                        </button>
-                        <button
-                            onClick={() =>
-                                window.open(
-                                    "https://forms.gle/8aME4UTkfMeWhFky7"
-                                )
-                            }
-                        >
-                            멘토 되기
-                        </button>
+                        <button disabled>참가 등록 마감</button>
+                        <button disabled>멘토 등록 마감</button>
                     </p>
                     <p className="attend-text">
                         모든 참가팀은 제출 마감시간{" "}
